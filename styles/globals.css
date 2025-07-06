@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
   height: 100%;
   background: #18181b;
   color-scheme: dark;
@@ -12,9 +13,10 @@ html, body {
 
 ::-webkit-scrollbar {
   width: 8px;
-  background: #23232b;
+  background-color: #23232b;
 }
+
 ::-webkit-scrollbar-thumb {
-  background: #a21caf;
+  background-color: #a21caf;
   border-radius: 4px;
 }
